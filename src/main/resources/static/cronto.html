@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vasco CronTo Image Display On Screen</title>
+</head>
+<body>
+	<div class="row">
+		<!--  DIGIPASS mobile application -->
+		<div class="col-xs-12 text-center">
+			
+			<img th:src="@{'data:image/jpeg;base64,'+*{extras['CRONTO_IMAGE']}}"
+				class="img-thumbnail" width="150px">
+			
+			<!--<img th:src="@{/themes/images/common/qrcode.png}" class="img-thumbnail" width="150px">-->
+			
+		</div>
+		
+	</div>
+</body>
+</html>

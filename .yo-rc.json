@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hari.xxx",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "jhypsterSimpleMicroservice",
+    "packageName": "com.hari.xxx",
+    "packageFolder": "com/hari/xxx",
+    "serverPort": "9999",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mssql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mjk1MTliNDUyZGIxNzE2MGM1NzA2NGZkZjg0MThmOTY0MDNhZmFkNWM3YzU3YmY1M2EyM2ZjNTA4N2MxMTMxODVhNDBhNGUxYmU1NjBmYjkwM2QxYWM3ODY3NmYyYmUwY2ZjZGZjNDQwOTA4ODU0Y2ZlMWExMWI4Zjg5NjUzOWE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1577245043483,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "ta"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
