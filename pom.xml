@@ -61,7 +61,7 @@
         <jaxb-runtime.version>2.3.2</jaxb-runtime.version>
         <archunit-junit5.version>0.12.0</archunit-junit5.version>
         <vasco.version>1.0.0</vasco.version>
-        <togglz.version>2.6.1.Final</togglz.version>
+        <togglz.version>2.9.4</togglz.version>
         <thymeleaf-extras-togglz.version>2.0.1.RELEASE</thymeleaf-extras-togglz.version>
         <log4j2-mock.version>0.0.1</log4j2-mock.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
